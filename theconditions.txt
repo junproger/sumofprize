@@ -1,0 +1,135 @@
+In English: 
+
+Task: Prize
+Task condition: 
+
+Time limit, s 1
+Memory limit, MB 64
+Total number of attempts to send 15
+
+Peter Vasilievich, the director of Horns and Horns OJSC, is going to give out a bonus to all the managers of the company, he is a kind and honest man, so he wants to observe the following conditions:
+
+The bonus should be equal for all managers
+it should be as much as possible and in one piece
+it has to be paid in one transaction from one account for each manager, without using several accounts for sending the same bonus
+
+Petr Vasilievich has N corporate accounts on which there are different amounts of money Cn, and the company has M managers.
+You need to find out the maximum size of the bonus that can be sent, taking into account the conditions. If there is not enough money in the company's accounts
+there is not enough money to give out a bonus of at least 1 Cn. - then there will be no bonus, and you need to output 0.
+
+
+Input data (goes into standard input stream)
+The first line is an integer N and M separated by spaces (1≤N≤100 000, 1≤M≤100 000)
+
+Next, N lines, each with one integer Cn (0≤Cn≤100 000 000)
+
+Checking the input data and handling incorrect data in the input is unnecessary, the test data for checking is guaranteed to fit the description above
+
+
+Output data (expected in the standard output stream)
+One integer, the highest possible premium
+
+
+Example 1
+Input:
+
+4 6
+199
+453
+220
+601
+Conclusion:
+
+200
+In this example, the correct answer is 200, not 245 or 199. Pay close attention to the condition of the problem.
+
+Example 2
+Input:
+
+2 100
+99
+1
+Output:
+
+1
+
+Example 3
+Input:
+
+2 100
+98
+1
+Output:
+
+0
+
+Notes on solution design
+Only the standard language libraries can be used, installing and using additional libraries is not possible. 
+
+По русски: 
+
+Задача: Премия
+Условие задачи: 
+
+Ограничение времени, с	1
+Ограничение памяти, МБ	64
+Общее число попыток отправки	15
+
+Петр Васильевич, директор ОАО "Рога и рога", собирается раздать премию всем менеджерам компании, он добрый и честный человек, поэтому хочет соблюсти следующие условия:
+
+премия должна быть равной для всех менеджеров
+должна быть максимально возможной и целой
+должна быть выдана одной транзакцией с одного счета для каждого менеджера, без использования нескольких счетов для отправки одной премии
+
+У Петра Васильевича открыто N корпоративных счетов, на которых лежат разные суммы денег Cn, а в компании работает M менеджеров.
+Необходимо выяснить максимальный размер премии, которую можно отправить с учетом условий. Если денег на счетах компании не
+хватит на то, чтобы выдать премию хотя бы по 1 у.е. - значит премии не будет, и нужно вывести 0.
+
+
+Входные данные (поступают в стандартный поток ввода)
+Первая строка - целые числа N и M через пробел (1≤N≤100 000, 1≤M≤100 000)
+
+Далее N строк, на каждой из которых одно целое число Cn (0≤Cn≤100 000 000)
+
+Проверка входных данных и обработка неправильных данных на входе не нужна, тестовые данные для проверки гарантированно подходят под описание выше
+
+
+Выходные данные (ожидаются в стандартном потоке вывода)
+Одно целое число, максимально возможная премия
+
+
+Пример 1
+Ввод:
+
+4 6
+199
+453
+220
+601
+Вывод:
+
+200
+В этом примере правильный ответ именно 200, не 245 и не 199. Отнеситесь внимательно к условию задачи.
+
+Пример 2
+Ввод:
+
+2 100
+99
+1
+Вывод:
+
+1
+
+Пример 3
+Ввод:
+
+2 100
+98
+1
+Вывод:
+
+0
+
+Примечания по оформлению решения
+Возможно использование только стандартных библиотек языков, установки и использование дополнительных библиотек невозможны. 

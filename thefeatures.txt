@@ -1,0 +1,7 @@
+The input data is a sequential series of different lines (types is string) .
+
+The output data is a one number (type is number). 
+
+Входными данными является последовательная серия строк (строковые типы). 
+
+Выходными данными является одно число (числовой тип). 
